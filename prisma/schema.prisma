@@ -12,8 +12,9 @@ datasource db {
 
 model Question {
   id        Int      @id @default(autoincrement())
-  question  String
-  available Boolean
+  question  String   
+  available Boolean  @default(true)
+  order     Int?     
   answers   Answer[]  
 }
 

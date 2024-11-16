@@ -13,7 +13,15 @@ export const createQuestion = async (data: { question: string; available: boolea
 
 // Obtener todas las preguntas
 export const getQuestions = async () => {
-    return prisma.question.findMany();
+    return prisma.question.findMany({
+        where: {
+            available : true
+        },
+        include : {answers: true},
+        orderBy : {
+            order: "asc"
+        }
+    });
 };
 
 // Actualizar una pregunta existente

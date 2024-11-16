@@ -1,0 +1,812 @@
+{
+    "questions": [
+        {
+            "question": "¿Cuál es el framework de Python más usado para desarrollo web? ",
+            "order": 1,
+            "answers": [
+                {
+                    "respuesta": "Django",
+                    "puntos": 70
+                },
+                {
+                    "respuesta": "Flask",
+                    "puntos": 28
+                },
+                {
+                    "respuesta": "FastAPI",
+                    "puntos": 19
+                }
+            ]
+        },
+        {
+            "question": "¿Qué biblioteca utilizas más para análisis de datos en Python?  ",
+            "order": 2,
+            "answers": [
+                {
+                    "respuesta": "Pandas",
+                    "puntos": 72
+                },
+                {
+                    "respuesta": "NumPy",
+                    "puntos": 54
+                },
+                {
+                    "respuesta": "Matplotlib",
+                    "puntos": 21
+                },
+                {
+                    "respuesta": "Seaborn",
+                    "puntos": 11
+                },
+                {
+                    "respuesta": "SciPy",
+                    "puntos": 9
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el IDE favorito de los programadores de Python?  ",
+            "order": 3,
+            "answers": [
+                {
+                    "respuesta": "VS Code",
+                    "puntos": 56
+                },
+                {
+                    "respuesta": "PyCharm",
+                    "puntos": 39
+                },
+                {
+                    "respuesta": "Jupyter Notebook",
+                    "puntos": 20
+                },
+                {
+                    "respuesta": "Sublime Text",
+                    "puntos": 2
+                }
+            ]
+        },
+        {
+            "question": "¿Qué biblioteca de Python usarías para machine learning?  ",
+            "order": 4,
+            "answers": [
+                {
+                    "respuesta": "scikit-learn",
+                    "puntos": 49
+                },
+                {
+                    "respuesta": "TensorFlow",
+                    "puntos": 48
+                },
+                {
+                    "respuesta": "PyTorch",
+                    "puntos": 27
+                },
+                {
+                    "respuesta": "Keras",
+                    "puntos": 21
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es la estructura de datos preferida en Python para almacenar datos ordenados?  ",
+            "order": 5,
+            "answers": [
+                {
+                    "respuesta": "Lista (List)",
+                    "puntos": 48
+                },
+                {
+                    "respuesta": "Diccionario (Dict)",
+                    "puntos": 31
+                },
+                {
+                    "respuesta": "Tupla (Tuple)",
+                    "puntos": 19
+                },
+                {
+                    "respuesta": "Conjunto (Set)",
+                    "puntos": 13
+                }
+            ]
+        },
+        {
+            "question": "¿Qué palabra clave usas para definir una función en Python?  ",
+            "order": 6,
+            "answers": [
+                {
+                    "respuesta": "def",
+                    "puntos": 78
+                },
+                {
+                    "respuesta": "lambda",
+                    "puntos": 7
+                },
+                {
+                    "respuesta": "function",
+                    "puntos": 2
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el comando más común para instalar paquetes en Python? ",
+            "order": 7,
+            "answers": [
+                {
+                    "respuesta": "pip install",
+                    "puntos": 79
+                },
+                {
+                    "respuesta": "conda install",
+                    "puntos": 6
+                },
+                {
+                    "respuesta": "poetry add",
+                    "puntos": 2
+                }
+            ]
+        },
+        {
+            "question": "¿Qué operador de comparación usas con mayor frecuencia en Python?",
+            "order": 8,
+            "answers": [
+                {
+                    "respuesta": "==",
+                    "puntos": 64
+                },
+                {
+                    "respuesta": "!=",
+                    "puntos": 26
+                },
+                {
+                    "respuesta": "<",
+                    "puntos": 10
+                }
+            ]
+        },
+        {
+            "question": "  ¿Qué significa None en Python?  ",
+            "order": 9,
+            "answers": [
+                {
+                    "respuesta": "Ausencia de valor",
+                    "puntos": 58
+                },
+                {
+                    "respuesta": "Null",
+                    "puntos": 33
+                }
+            ]
+        },
+        {
+            "question": "¿Qué herramienta de testing es la más usada en Python? ",
+            "order": 10,
+            "answers": [
+                {
+                    "respuesta": "pytest",
+                    "puntos": 69
+                },
+                {
+                    "respuesta": "unittest",
+                    "puntos": 24
+                },
+                {
+                    "respuesta": "nose2",
+                    "puntos": 3
+                },
+                {
+                    "respuesta": "doctest",
+                    "puntos": 2
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el estilo de código que más se sigues al programar en Python?  ",
+            "order": 11,
+            "answers": [
+                {
+                    "respuesta": "PEP8",
+                    "puntos": 64
+                },
+                {
+                    "respuesta": "Google Style",
+                    "puntos": 11
+                },
+                {
+                    "respuesta": "PEP20",
+                    "puntos": 8
+                }
+            ]
+        },
+        {
+            "question": "¿Qué herramienta usas para la visualización de datos en Python?",
+            "order": 12,
+            "answers": [
+                {
+                    "respuesta": "Matplotlib",
+                    "puntos": 65
+                },
+                {
+                    "respuesta": "Seaborn",
+                    "puntos": 28
+                },
+                {
+                    "respuesta": "Plotly",
+                    "puntos": 21
+                },
+                {
+                    "respuesta": "ggplot",
+                    "puntos": 5
+                },
+                {
+                    "respuesta": "Bokeh",
+                    "puntos": 4
+                }
+            ]
+        },
+        {
+            "question": "¿Qué comando usas para crear un entorno virtual en Python?",
+            "order": 13,
+            "answers": [
+                {
+                    "respuesta": "python -m venv",
+                    "puntos": 56
+                },
+                {
+                    "respuesta": "virtualenv",
+                    "puntos": 17
+                },
+                {
+                    "respuesta": "conda create",
+                    "puntos": 11
+                },
+                {
+                    "respuesta": "pipenv install",
+                    "puntos": 11
+                }
+            ]
+        },
+        {
+            "question": "¿Qué herramienta de control de calidad de código usas en tus proyectos?  ",
+            "order": 14,
+            "answers": [
+                {
+                    "respuesta": "pylint",
+                    "puntos": 32
+                },
+                {
+                    "respuesta": "flake8",
+                    "puntos": 26
+                },
+                {
+                    "respuesta": "black",
+                    "puntos": 22
+                },
+                {
+                    "respuesta": "mypy",
+                    "puntos": 14
+                },
+                {
+                    "respuesta": "autopep8",
+                    "puntos": 14
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es la estructura de control más utilizada en tus proyectos?",
+            "order": 15,
+            "answers": [
+                {
+                    "respuesta": "if/else",
+                    "puntos": 71
+                },
+                {
+                    "respuesta": "for",
+                    "puntos": 40
+                },
+                {
+                    "respuesta": "while",
+                    "puntos": 11
+                },
+                {
+                    "respuesta": "switch/case",
+                    "puntos": 4
+                }
+            ]
+        },
+        {
+            "question": "¿Qué tipo de dato prefieres usar para almacenar decimales? ",
+            "order": 16,
+            "answers": [
+                {
+                    "respuesta": "Float",
+                    "puntos": 49
+                },
+                {
+                    "respuesta": "Decimal",
+                    "puntos": 35
+                },
+                {
+                    "respuesta": "Int",
+                    "puntos": 6
+                }
+            ]
+        },
+        {
+            "question": "¿Qué es un array?  ",
+            "order": 17,
+            "answers": [
+                {
+                    "respuesta": "Una lista de datos",
+                    "puntos": 61
+                },
+                {
+                    "respuesta": "Un tipo de contenedor",
+                    "puntos": 15
+                },
+                {
+                    "respuesta": "Un conjunto de valores numéricos",
+                    "puntos": 8
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el concepto fundamental para entender las funciones en programación?",
+            "order": 18,
+            "answers": [
+                {
+                    "respuesta": "Definición de función",
+                    "puntos": 59
+                },
+                {
+                    "respuesta": "Retorno de valor",
+                    "puntos": 32
+                },
+                {
+                    "respuesta": "Parámetros",
+                    "puntos": 31
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es tu método favorito para ordenar datos?",
+            "order": 19,
+            "answers": [
+                {
+                    "respuesta": "Quick Sort",
+                    "puntos": 53
+                },
+                {
+                    "respuesta": "Bubble Sort",
+                    "puntos": 19
+                },
+                {
+                    "respuesta": "Merge Sort",
+                    "puntos": 16
+                },
+                {
+                    "respuesta": "Insertion Sort",
+                    "puntos": 5
+                }
+            ]
+        },
+        {
+            "question": "¿Qué método de programación prefieres para depuración?",
+            "order": 20,
+            "answers": [
+                {
+                    "respuesta": "Debugger en IDE",
+                    "puntos": 45
+                },
+                {
+                    "respuesta": "Logs de consola",
+                    "puntos": 37
+                },
+                {
+                    "respuesta": "Print statements",
+                    "puntos": 25
+                },
+                {
+                    "respuesta": "Pruebas unitarias",
+                    "puntos": 20
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el lenguaje de programación más usado en tu opinión?",
+            "order": 21,
+            "answers": [
+                {
+                    "respuesta": "Python",
+                    "puntos": 59
+                },
+                {
+                    "respuesta": "JavaScript",
+                    "puntos": 54
+                },
+                {
+                    "respuesta": "Java",
+                    "puntos": 17
+                },
+                {
+                    "respuesta": "C#",
+                    "puntos": 10
+                },
+                {
+                    "respuesta": "C++",
+                    "puntos": 4
+                }
+            ]
+        },
+        {
+            "question": "¿Qué significa \"debuggear\" para ti?",
+            "order": 22,
+            "answers": [
+                {
+                    "respuesta": "Encontrar y corregir errores",
+                    "puntos": 78
+                },
+                {
+                    "respuesta": "Validar código en producción",
+                    "puntos": 5
+                },
+                {
+                    "respuesta": "Escribir código de prueba",
+                    "puntos": 3
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el gestor de bases de datos que más utilizas para tus proyectos?  ",
+            "order": 23,
+            "answers": [
+                {
+                    "respuesta": "PostgreSQL",
+                    "puntos": 57
+                },
+                {
+                    "respuesta": "MySQL",
+                    "puntos": 26
+                },
+                {
+                    "respuesta": "SQLite",
+                    "puntos": 22
+                },
+                {
+                    "respuesta": "MongoDB",
+                    "puntos": 19
+                },
+                {
+                    "respuesta": "SQL Server",
+                    "puntos": 14
+                }
+            ]
+        },
+        {
+            "question": "  ¿Qué entiendes por \"framework\"?  ",
+            "order": 24,
+            "answers": [
+                {
+                    "respuesta": "Un conjunto de herramientas para desarrollo",
+                    "puntos": 77
+                },
+                {
+                    "respuesta": "Un entorno de trabajo en equipo",
+                    "puntos": 7
+                }
+            ]
+        },
+        {
+            "question": "  ¿Cuál es el tu sistema operativo preferido?  ",
+            "order": 25,
+            "answers": [
+                {
+                    "respuesta": "Linux",
+                    "puntos": 54
+                },
+                {
+                    "respuesta": "Windows",
+                    "puntos": 34
+                },
+                {
+                    "respuesta": "macOS",
+                    "puntos": 19
+                }
+            ]
+        },
+        {
+            "question": "¿Qué prefieres usar para el desarrollo frontend?",
+            "order": 26,
+            "answers": [
+                {
+                    "respuesta": "React",
+                    "puntos": 48
+                },
+                {
+                    "respuesta": "Vue",
+                    "puntos": 24
+                },
+                {
+                    "respuesta": "Angular",
+                    "puntos": 24
+                },
+                {
+                    "respuesta": "jQuery",
+                    "puntos": 8
+                },
+                {
+                    "respuesta": "Svelte",
+                    "puntos": 5
+                }
+            ]
+        },
+        {
+            "question": "¿Qué prefieres para el despliegue de tus aplicaciones? ",
+            "order": 27,
+            "answers": [
+                {
+                    "respuesta": "Docker",
+                    "puntos": 56
+                },
+                {
+                    "respuesta": "Amazon Web Services (AWS)",
+                    "puntos": 39
+                },
+                {
+                    "respuesta": "Kubernetes",
+                    "puntos": 18
+                },
+                {
+                    "respuesta": "Google Cloud Platform (GCP)",
+                    "puntos": 14
+                },
+                {
+                    "respuesta": "Microsoft Azure",
+                    "puntos": 12
+                }
+            ]
+        },
+        {
+            "question": "¿Qué es lo que no puede faltar cuando estás programando?",
+            "order": 28,
+            "answers": [
+                {
+                    "respuesta": "Música 🎶",
+                    "puntos": 61
+                },
+                {
+                    "respuesta": "Botella de agua 💧",
+                    "puntos": 44
+                },
+                {
+                    "respuesta": "Café ☕",
+                    "puntos": 25
+                },
+                {
+                    "respuesta": "Notas o post-its para ideas 📝",
+                    "puntos": 16
+                },
+                {
+                    "respuesta": "Snacks 🍫",
+                    "puntos": 14
+                },
+                {
+                    "respuesta": "Silencio absoluto 🤫",
+                    "puntos": 9
+                }
+            ]
+        },
+        {
+            "question": "Si tu código no funciona, ¿qué es lo primero que haces?",
+            "order": 29,
+            "answers": [
+                {
+                    "respuesta": "Revisar errores en el terminal o consola",
+                    "puntos": 62
+                },
+                {
+                    "respuesta": "Probar con \"print\" para depurar",
+                    "puntos": 42
+                },
+                {
+                    "respuesta": "Buscar en Google/Stack Overflow",
+                    "puntos": 32
+                },
+                {
+                    "respuesta": "Tomar un descanso para despejar la mente",
+                    "puntos": 23
+                },
+                {
+                    "respuesta": "Consultar con un colega",
+                    "puntos": 5
+                }
+            ]
+        },
+        {
+            "question": "  ¿Cuál es el lenguaje de programación que menos te agrada?  ",
+            "order": 30,
+            "answers": [
+                {
+                    "respuesta": "PHP",
+                    "puntos": 35
+                },
+                {
+                    "respuesta": "Java",
+                    "puntos": 26
+                },
+                {
+                    "respuesta": "C++",
+                    "puntos": 17
+                },
+                {
+                    "respuesta": "Ruby",
+                    "puntos": 16
+                },
+                {
+                    "respuesta": "JavaScript",
+                    "puntos": 6
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál ha sido la peor experiencia que has tenido en el trabajo?  ",
+            "order": 31,
+            "answers": [
+                {
+                    "respuesta": "Un proyecto con mala organización",
+                    "puntos": 57
+                },
+                {
+                    "respuesta": "Fechas límite muy ajustadas",
+                    "puntos": 37
+                },
+                {
+                    "respuesta": "Problemas con el equipo",
+                    "puntos": 17
+                },
+                {
+                    "respuesta": "Soporte de clientes difíciles",
+                    "puntos": 14
+                },
+                {
+                    "respuesta": "Pérdida de datos importantes",
+                    "puntos": 8
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es tu comida favorita para los descansos?  ",
+            "order": 32,
+            "answers": [
+                {
+                    "respuesta": "Café y galletas ☕🍪",
+                    "puntos": 42
+                },
+                {
+                    "respuesta": "Pizza 🍕",
+                    "puntos": 30
+                },
+                {
+                    "respuesta": "Fruta 🍎",
+                    "puntos": 24
+                },
+                {
+                    "respuesta": "Hamburguesa 🍔",
+                    "puntos": 22
+                },
+                {
+                    "respuesta": "Empanadas 🥟",
+                    "puntos": 16
+                },
+                {
+                    "respuesta": "Ensalada 🥗",
+                    "puntos": 6
+                }
+            ]
+        },
+        {
+            "question": "¿Qué hiciste con tu primer salario?",
+            "order": 33,
+            "answers": [
+                {
+                    "respuesta": "Me di un gusto personal",
+                    "puntos": 31
+                },
+                {
+                    "respuesta": "Invitación a familiares o amigos",
+                    "puntos": 30
+                },
+                {
+                    "respuesta": "Compré gadgets o equipo de trabajo",
+                    "puntos": 28
+                },
+                {
+                    "respuesta": "Ahorré la mayor parte",
+                    "puntos": 23
+                },
+                {
+                    "respuesta": "Pagué deudas",
+                    "puntos": 9
+                }
+            ]
+        },
+        {
+            "question": "Entré al mundo del desarrollo y la programación porque...",
+            "order": 34,
+            "answers": [
+                {
+                    "respuesta": "Siempre tuve curiosidad por la tecnología",
+                    "puntos": 58
+                },
+                {
+                    "respuesta": "Quería mejorar mis habilidades técnicas",
+                    "puntos": 22
+                },
+                {
+                    "respuesta": "Me interesaba el mundo de los videojuegos",
+                    "puntos": 22
+                },
+                {
+                    "respuesta": "Quería hacerlo",
+                    "puntos": 20
+                },
+                {
+                    "respuesta": "Me obligaron",
+                    "puntos": 2
+                }
+            ]
+        },
+        {
+            "question": "¿Qué fue lo que casi te hace abandonar la carrera?",
+            "order": 35,
+            "answers": [
+                {
+                    "respuesta": "Falta de motivación",
+                    "puntos": 29
+                },
+                {
+                    "respuesta": "Dificultades técnicas",
+                    "puntos": 18
+                },
+                {
+                    "respuesta": "Jornadas de trabajo agotadoras",
+                    "puntos": 17
+                },
+                {
+                    "respuesta": "Problemas con compañeros o profesores",
+                    "puntos": 17
+                }
+            ]
+        },
+        {
+            "question": "Me pagaron las horas extra con...",
+            "order": 36,
+            "answers": [
+                {
+                    "respuesta": "Nunca me las pagaron 🙃",
+                    "puntos": 26
+                },
+                {
+                    "respuesta": "Compensación horaria",
+                    "puntos": 25
+                },
+                {
+                    "respuesta": "Agradecimientos, nada material 😅",
+                    "puntos": 22
+                },
+                {
+                    "respuesta": "Pizza",
+                    "puntos": 22
+                },
+                {
+                    "respuesta": "Dinero",
+                    "puntos": 21
+                },
+                {
+                    "respuesta": "Vacaciones",
+                    "puntos": 7
+                }
+            ]
+        }
+    ]
+}
