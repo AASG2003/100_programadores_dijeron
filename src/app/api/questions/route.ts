@@ -15,7 +15,7 @@ export async function POST(request: Request) {
 }
 
 // Obtener todas las preguntas (GET)
-export async function GET(request: Request) {
+export async function GET() {
   try {
     const questions = await getQuestions();
     return NextResponse.json(questions, { status: 200 });

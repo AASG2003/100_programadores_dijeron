@@ -1,6 +1,6 @@
 // src/app/question/page.tsx
 "use client"
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect} from 'react';
 import Image from 'next/image';
 import styles from './styles.module.css'
 import fondo from "@/public/img/fondo_100_bolivianos.png"
@@ -32,6 +32,8 @@ const QuestionPage: React.FC = () => {
   const [showOverlay, setShowOverlay] = useState(false);
 
   const handleWrongAnswers = () =>{
+    const audio = new Audio('/sounds/buzzer-or-wrong-answer-20582.mp3');
+    audio.play();
     if(wrongAnswers < 2)
     setWrongAnswers(wrongAnswers + 1)
     setShowOverlay(true);
@@ -39,6 +41,7 @@ const QuestionPage: React.FC = () => {
   }
 
   const handleNext = () => {
+    setWrongAnswers(0)
     if (questions != null) {
       if (questionNumber < questions.length - 1) {
         setQuestionNumber(questionNumber + 1)
@@ -49,6 +52,7 @@ const QuestionPage: React.FC = () => {
   }
 
   const handlePrevious = () => {
+    setWrongAnswers(0)
     if (questions != null) {
       if (questionNumber == 0) {
         setQuestionNumber(questions?.length - 1)
@@ -59,6 +63,8 @@ const QuestionPage: React.FC = () => {
   }
 
   const handleFlip = (answerId: number) => {
+    const audio = new Audio('/sounds/copper-bell-ding-16-215298.mp3');
+    audio.play();
     setFlippedAnswers((prev) => 
       prev.includes(answerId) ? prev.filter((id) => id !== answerId) : [...prev, answerId]
     );
@@ -135,7 +141,7 @@ const QuestionPage: React.FC = () => {
         alt="imagen de fondo" />
       <div className={styles.question_container}>
 
-        <div className={styles.question}>{questionNumber}: {question.question}</div>
+        <div className={styles.question}>{questionNumber + 1}: {question.question}</div>
 
         {question.answers.map((answer, index) => (
           <div

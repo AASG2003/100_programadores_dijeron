@@ -1,6 +1,6 @@
 // src/app/api/answers/route.ts
 import { NextResponse } from 'next/server';
-import { createAnswer, getAnswersByQuestionId, getAnswerById, updateAnswer, deleteAnswer, getAnswers } from '../../../services/answerService';
+import { createAnswer,updateAnswer, deleteAnswer, getAnswers } from '../../../services/answerService';
 
 // Crear una nueva respuesta (POST)
 export async function POST(request: Request) {
@@ -15,7 +15,7 @@ export async function POST(request: Request) {
 }
 
 // Obtener todas las respuestas de una pregunta (GET)
-export async function GET(request: Request) {
+export async function GET() {
   try {
     const answers = await getAnswers();
     return NextResponse.json(answers, { status: 200 });
@@ -25,20 +25,7 @@ export async function GET(request: Request) {
   }
 }
 
-// Obtener una respuesta por su id (GET /:id)
-export async function GET_BY_ID(request: Request) {
-  try {
-    const { id } = await request.json();
-    const answer = await getAnswerById(id);
-    if (!answer) {
-      return NextResponse.json({ message: 'Answer not found' }, { status: 404 });
-    }
-    return NextResponse.json(answer, { status: 200 });
-  } catch (error) {
-    console.error('Error fetching answer:', error);
-    return NextResponse.json({ message: 'Failed to fetch answer' }, { status: 500 });
-  }
-}
+
 
 // Actualizar una respuesta (PUT)
 export async function PUT(request: Request) {

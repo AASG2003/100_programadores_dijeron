@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { createAnswer, getAnswersByQuestionId, getAnswerById, updateAnswer, deleteAnswer } from '@/services/answerService';
+import {getAnswersByQuestionId} from '@/services/answerService';
 
 export async function GET(
     request: Request,

@@ -2,7 +2,7 @@
     "questions": [
         {
             "question": "¿Cuál es el framework de Python más usado para desarrollo web? ",
-            "order": 1,
+            "order": 19,
             "answers": [
                 {
                     "respuesta": "Django",
@@ -20,7 +20,7 @@
         },
         {
             "question": "¿Qué biblioteca utilizas más para análisis de datos en Python?  ",
-            "order": 2,
+            "order": 3,
             "answers": [
                 {
                     "respuesta": "Pandas",
@@ -46,7 +46,7 @@
         },
         {
             "question": "¿Cuál es el IDE favorito de los programadores de Python?  ",
-            "order": 3,
+            "order": 15,
             "answers": [
                 {
                     "respuesta": "VS Code",
@@ -68,7 +68,7 @@
         },
         {
             "question": "¿Qué biblioteca de Python usarías para machine learning?  ",
-            "order": 4,
+            "order": 32,
             "answers": [
                 {
                     "respuesta": "scikit-learn",
@@ -90,7 +90,7 @@
         },
         {
             "question": "¿Cuál es la estructura de datos preferida en Python para almacenar datos ordenados?  ",
-            "order": 5,
+            "order": 24,
             "answers": [
                 {
                     "respuesta": "Lista (List)",
@@ -112,7 +112,7 @@
         },
         {
             "question": "¿Qué palabra clave usas para definir una función en Python?  ",
-            "order": 6,
+            "order": 12,
             "answers": [
                 {
                     "respuesta": "def",
@@ -130,7 +130,7 @@
         },
         {
             "question": "¿Cuál es el comando más común para instalar paquetes en Python? ",
-            "order": 7,
+            "order": 9,
             "answers": [
                 {
                     "respuesta": "pip install",
@@ -148,7 +148,7 @@
         },
         {
             "question": "¿Qué operador de comparación usas con mayor frecuencia en Python?",
-            "order": 8,
+            "order": 22,
             "answers": [
                 {
                     "respuesta": "==",
@@ -166,7 +166,7 @@
         },
         {
             "question": "  ¿Qué significa None en Python?  ",
-            "order": 9,
+            "order": 10,
             "answers": [
                 {
                     "respuesta": "Ausencia de valor",
@@ -180,7 +180,7 @@
         },
         {
             "question": "¿Qué herramienta de testing es la más usada en Python? ",
-            "order": 10,
+            "order": 35,
             "answers": [
                 {
                     "respuesta": "pytest",
@@ -202,7 +202,7 @@
         },
         {
             "question": "¿Cuál es el estilo de código que más se sigues al programar en Python?  ",
-            "order": 11,
+            "order": 23,
             "answers": [
                 {
                     "respuesta": "PEP8",
@@ -220,7 +220,7 @@
         },
         {
             "question": "¿Qué herramienta usas para la visualización de datos en Python?",
-            "order": 12,
+            "order": 30,
             "answers": [
                 {
                     "respuesta": "Matplotlib",
@@ -246,7 +246,7 @@
         },
         {
             "question": "¿Qué comando usas para crear un entorno virtual en Python?",
-            "order": 13,
+            "order": 26,
             "answers": [
                 {
                     "respuesta": "python -m venv",
@@ -268,7 +268,7 @@
         },
         {
             "question": "¿Qué herramienta de control de calidad de código usas en tus proyectos?  ",
-            "order": 14,
+            "order": 29,
             "answers": [
                 {
                     "respuesta": "pylint",
@@ -294,7 +294,7 @@
         },
         {
             "question": "¿Cuál es la estructura de control más utilizada en tus proyectos?",
-            "order": 15,
+            "order": 18,
             "answers": [
                 {
                     "respuesta": "if/else",
@@ -316,7 +316,7 @@
         },
         {
             "question": "¿Qué tipo de dato prefieres usar para almacenar decimales? ",
-            "order": 16,
+            "order": 13,
             "answers": [
                 {
                     "respuesta": "Float",
@@ -334,7 +334,7 @@
         },
         {
             "question": "¿Qué es un array?  ",
-            "order": 17,
+            "order": 25,
             "answers": [
                 {
                     "respuesta": "Una lista de datos",
@@ -352,7 +352,7 @@
         },
         {
             "question": "¿Cuál es el concepto fundamental para entender las funciones en programación?",
-            "order": 18,
+            "order": 34,
             "answers": [
                 {
                     "respuesta": "Definición de función",
@@ -370,7 +370,7 @@
         },
         {
             "question": "¿Cuál es tu método favorito para ordenar datos?",
-            "order": 19,
+            "order": 27,
             "answers": [
                 {
                     "respuesta": "Quick Sort",
@@ -392,7 +392,7 @@
         },
         {
             "question": "¿Qué método de programación prefieres para depuración?",
-            "order": 20,
+            "order": 28,
             "answers": [
                 {
                     "respuesta": "Debugger en IDE",
@@ -414,7 +414,7 @@
         },
         {
             "question": "¿Cuál es el lenguaje de programación más usado en tu opinión?",
-            "order": 21,
+            "order": 7,
             "answers": [
                 {
                     "respuesta": "Python",
@@ -440,7 +440,7 @@
         },
         {
             "question": "¿Qué significa \"debuggear\" para ti?",
-            "order": 22,
+            "order": 31,
             "answers": [
                 {
                     "respuesta": "Encontrar y corregir errores",
@@ -458,7 +458,7 @@
         },
         {
             "question": "¿Cuál es el gestor de bases de datos que más utilizas para tus proyectos?  ",
-            "order": 23,
+            "order": 36,
             "answers": [
                 {
                     "respuesta": "PostgreSQL",
@@ -484,7 +484,7 @@
         },
         {
             "question": "  ¿Qué entiendes por \"framework\"?  ",
-            "order": 24,
+            "order": 16,
             "answers": [
                 {
                     "respuesta": "Un conjunto de herramientas para desarrollo",
@@ -498,7 +498,7 @@
         },
         {
             "question": "  ¿Cuál es el tu sistema operativo preferido?  ",
-            "order": 25,
+            "order": 5,
             "answers": [
                 {
                     "respuesta": "Linux",
@@ -516,7 +516,7 @@
         },
         {
             "question": "¿Qué prefieres usar para el desarrollo frontend?",
-            "order": 26,
+            "order": 21,
             "answers": [
                 {
                     "respuesta": "React",
@@ -542,7 +542,7 @@
         },
         {
             "question": "¿Qué prefieres para el despliegue de tus aplicaciones? ",
-            "order": 27,
+            "order": 33,
             "answers": [
                 {
                     "respuesta": "Docker",
@@ -568,7 +568,7 @@
         },
         {
             "question": "¿Qué es lo que no puede faltar cuando estás programando?",
-            "order": 28,
+            "order": 2,
             "answers": [
                 {
                     "respuesta": "Música 🎶",
@@ -598,7 +598,7 @@
         },
         {
             "question": "Si tu código no funciona, ¿qué es lo primero que haces?",
-            "order": 29,
+            "order": 8,
             "answers": [
                 {
                     "respuesta": "Revisar errores en el terminal o consola",
@@ -624,7 +624,7 @@
         },
         {
             "question": "  ¿Cuál es el lenguaje de programación que menos te agrada?  ",
-            "order": 30,
+            "order": 1,
             "answers": [
                 {
                     "respuesta": "PHP",
@@ -650,7 +650,7 @@
         },
         {
             "question": "¿Cuál ha sido la peor experiencia que has tenido en el trabajo?  ",
-            "order": 31,
+            "order": 20,
             "answers": [
                 {
                     "respuesta": "Un proyecto con mala organización",
@@ -676,7 +676,7 @@
         },
         {
             "question": "¿Cuál es tu comida favorita para los descansos?  ",
-            "order": 32,
+            "order": 4,
             "answers": [
                 {
                     "respuesta": "Café y galletas ☕🍪",
@@ -706,7 +706,7 @@
         },
         {
             "question": "¿Qué hiciste con tu primer salario?",
-            "order": 33,
+            "order": 14,
             "answers": [
                 {
                     "respuesta": "Me di un gusto personal",
@@ -732,7 +732,7 @@
         },
         {
             "question": "Entré al mundo del desarrollo y la programación porque...",
-            "order": 34,
+            "order": 17,
             "answers": [
                 {
                     "respuesta": "Siempre tuve curiosidad por la tecnología",
@@ -758,7 +758,7 @@
         },
         {
             "question": "¿Qué fue lo que casi te hace abandonar la carrera?",
-            "order": 35,
+            "order": 6,
             "answers": [
                 {
                     "respuesta": "Falta de motivación",
@@ -780,7 +780,7 @@
         },
         {
             "question": "Me pagaron las horas extra con...",
-            "order": 36,
+            "order": 11,
             "answers": [
                 {
                     "respuesta": "Nunca me las pagaron 🙃",

@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "ts-node --transpile-only prisma/seed.mjs"
+    "seed": "npx ts-node --transpile-only prisma/seed.mjs"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
